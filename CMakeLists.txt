@@ -22,6 +22,14 @@ find_library(CURAND_LIBRARY curand HINTS ${CUDA_TOOLKIT_ROOT_DIR}/lib64)
 # Find yaml-cpp
 find_package(yaml-cpp REQUIRED)
 
+# Find mujoco
+set(MUJOCO_ROOT "$ENV{HOME}/.mujoco/mujoco-3.2.7")
+# find_package(mujoco REQUIRED)
+find_library(MUJOCO_LIB mujoco PATHS ${MUJOCO_ROOT}/lib)
+if (NOT MUJOCO_LIB)
+    message(FATAL_ERROR "MuJoCo library not found in ${MUJOCO_ROOT}/bin")
+endif()
+
 # Create NVTX interface target
 add_library(nvtx3-cpp INTERFACE)
 target_include_directories(nvtx3-cpp INTERFACE 
@@ -55,7 +63,9 @@ set(CMAKE_CUDA_FLAGS_RELEASE "-O3 --use_fast_math -Xcompiler -fPIC -lineinfo")
 # set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
 
 # Include the directory for header files
-include_directories(${PROJECT_SOURCE_DIR}/include ${PROJECT_SOURCE_DIR}/thirdparty/nvtx/c/include)
+include_directories(${PROJECT_SOURCE_DIR}/include
+                    ${PROJECT_SOURCE_DIR}/thirdparty/nvtx/c/include
+                    ${MUJOCO_ROOT}/include)
 
 # # Set the source files (add main.cpp here)
 # set(SOURCE_FILES
@@ -123,6 +133,7 @@ target_link_libraries(cuda_solver PRIVATE
     nvtx3-cpp
     # nlohmann_json::nlohmann_json
     yaml-cpp::yaml-cpp
+    ${MUJOCO_LIB}
 )
 
 # Enable device symbol resolution to ensure device code is linked correctly

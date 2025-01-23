@@ -6,5 +6,5 @@ CUDA_FLAGS = -g -Xcompiler=-fPIC
 
 CUDA_DEFINES = 
 
-CUDA_INCLUDES = -I/home/chris/parallel_diff_evolution/include -I/home/chris/parallel_diff_evolution/thirdparty/nvtx/c/include 
+CUDA_INCLUDES = -I/home/chris/loco-manipulation-cuda-DE/include -I/home/chris/loco-manipulation-cuda-DE/thirdparty/nvtx/c/include -I/home/chris/.mujoco/mujoco-3.2.7/include 
 

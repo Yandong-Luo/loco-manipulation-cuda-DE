@@ -6,5 +6,5 @@ CXX_FLAGS = -g -fPIC -fvisibility=hidden
 
 CXX_DEFINES = -DYAML_CPP_STATIC_DEFINE -Dcuda_solver_EXPORTS
 
-CXX_INCLUDES = -I/usr/local/cuda-11.1/include -I/home/chris/parallel_diff_evolution/include -I/home/chris/parallel_diff_evolution/thirdparty/nvtx/c/include -isystem /home/chris/parallel_diff_evolution/thirdparty/pybind11/include -isystem /home/chris/anaconda3/envs/lab_env/include/python3.9 
+CXX_INCLUDES = -I/usr/local/cuda-11.1/include -I/home/chris/loco-manipulation-cuda-DE/include -I/home/chris/loco-manipulation-cuda-DE/thirdparty/nvtx/c/include -I/home/chris/.mujoco/mujoco-3.2.7/include -isystem /home/chris/loco-manipulation-cuda-DE/thirdparty/pybind11/include -isystem /usr/include/python3.8 
 

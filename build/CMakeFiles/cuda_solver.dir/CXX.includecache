@@ -508,13 +508,21 @@ pytypes.h
 algorithm
 -
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/Python.h
+/home/chris/loco-manipulation-cuda-DE/src/solver_center/solver_center.cpp
+pybind11/pybind11.h
+-
+pybind11/numpy.h
+-
+diff_evolution_solver/solver.cuh
+/home/chris/loco-manipulation-cuda-DE/src/solver_center/diff_evolution_solver/solver.cuh
+
+/usr/include/python3.8/Python.h
 patchlevel.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/patchlevel.h
+/usr/include/python3.8/patchlevel.h
 pyconfig.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyconfig.h
+/usr/include/python3.8/pyconfig.h
 pymacconfig.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pymacconfig.h
+/usr/include/python3.8/pymacconfig.h
 limits.h
 -
 stdio.h
@@ -527,366 +535,400 @@ stdlib.h
 -
 unistd.h
 -
+crypt.h
+-
 stddef.h
 -
 assert.h
 -
 pyport.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyport.h
+/usr/include/python3.8/pyport.h
 pymacro.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pymacro.h
+/usr/include/python3.8/pymacro.h
 pymath.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pymath.h
+/usr/include/python3.8/pymath.h
 pytime.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pytime.h
+/usr/include/python3.8/pytime.h
 pymem.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pymem.h
+/usr/include/python3.8/pymem.h
 object.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/object.h
+/usr/include/python3.8/object.h
 objimpl.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/objimpl.h
+/usr/include/python3.8/objimpl.h
 typeslots.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/typeslots.h
+/usr/include/python3.8/typeslots.h
 pyhash.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyhash.h
+/usr/include/python3.8/pyhash.h
 pydebug.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pydebug.h
+/usr/include/python3.8/pydebug.h
 bytearrayobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/bytearrayobject.h
+/usr/include/python3.8/bytearrayobject.h
 bytesobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/bytesobject.h
+/usr/include/python3.8/bytesobject.h
 unicodeobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/unicodeobject.h
+/usr/include/python3.8/unicodeobject.h
 longobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/longobject.h
+/usr/include/python3.8/longobject.h
 longintrepr.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/longintrepr.h
+/usr/include/python3.8/longintrepr.h
 boolobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/boolobject.h
+/usr/include/python3.8/boolobject.h
 floatobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/floatobject.h
+/usr/include/python3.8/floatobject.h
 complexobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/complexobject.h
+/usr/include/python3.8/complexobject.h
 rangeobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/rangeobject.h
+/usr/include/python3.8/rangeobject.h
 memoryobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/memoryobject.h
+/usr/include/python3.8/memoryobject.h
 tupleobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/tupleobject.h
+/usr/include/python3.8/tupleobject.h
 listobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/listobject.h
+/usr/include/python3.8/listobject.h
 dictobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/dictobject.h
+/usr/include/python3.8/dictobject.h
 odictobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/odictobject.h
+/usr/include/python3.8/odictobject.h
 enumobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/enumobject.h
+/usr/include/python3.8/enumobject.h
 setobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/setobject.h
+/usr/include/python3.8/setobject.h
 methodobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/methodobject.h
+/usr/include/python3.8/methodobject.h
 moduleobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/moduleobject.h
+/usr/include/python3.8/moduleobject.h
 funcobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/funcobject.h
+/usr/include/python3.8/funcobject.h
 classobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/classobject.h
+/usr/include/python3.8/classobject.h
 fileobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/fileobject.h
+/usr/include/python3.8/fileobject.h
 pycapsule.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pycapsule.h
-code.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/code.h
-pyframe.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyframe.h
+/usr/include/python3.8/pycapsule.h
 traceback.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/traceback.h
+/usr/include/python3.8/traceback.h
 sliceobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/sliceobject.h
+/usr/include/python3.8/sliceobject.h
 cellobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cellobject.h
+/usr/include/python3.8/cellobject.h
 iterobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/iterobject.h
-cpython/initconfig.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/initconfig.h
+/usr/include/python3.8/iterobject.h
 genobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/genobject.h
+/usr/include/python3.8/genobject.h
 descrobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/descrobject.h
-genericaliasobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/genericaliasobject.h
+/usr/include/python3.8/descrobject.h
 warnings.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/warnings.h
+/usr/include/python3.8/warnings.h
 weakrefobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/weakrefobject.h
+/usr/include/python3.8/weakrefobject.h
 structseq.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/structseq.h
+/usr/include/python3.8/structseq.h
 namespaceobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/namespaceobject.h
+/usr/include/python3.8/namespaceobject.h
 picklebufobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/picklebufobject.h
+/usr/include/python3.8/picklebufobject.h
 codecs.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/codecs.h
+/usr/include/python3.8/codecs.h
 pyerrors.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyerrors.h
-pythread.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pythread.h
+/usr/include/python3.8/pyerrors.h
+cpython/initconfig.h
+/usr/include/python3.8/cpython/initconfig.h
 pystate.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pystate.h
+/usr/include/python3.8/pystate.h
 context.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/context.h
+/usr/include/python3.8/context.h
 pyarena.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyarena.h
+/usr/include/python3.8/pyarena.h
 modsupport.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/modsupport.h
+/usr/include/python3.8/modsupport.h
 compile.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/compile.h
+/usr/include/python3.8/compile.h
 pythonrun.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pythonrun.h
+/usr/include/python3.8/pythonrun.h
 pylifecycle.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pylifecycle.h
+/usr/include/python3.8/pylifecycle.h
 ceval.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/ceval.h
+/usr/include/python3.8/ceval.h
 sysmodule.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/sysmodule.h
+/usr/include/python3.8/sysmodule.h
 osmodule.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/osmodule.h
+/usr/include/python3.8/osmodule.h
 intrcheck.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/intrcheck.h
+/usr/include/python3.8/intrcheck.h
 import.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/import.h
+/usr/include/python3.8/import.h
 abstract.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/abstract.h
+/usr/include/python3.8/abstract.h
 bltinmodule.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/bltinmodule.h
+/usr/include/python3.8/bltinmodule.h
 eval.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/eval.h
+/usr/include/python3.8/eval.h
 pyctype.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyctype.h
+/usr/include/python3.8/pyctype.h
 pystrtod.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pystrtod.h
+/usr/include/python3.8/pystrtod.h
 pystrcmp.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pystrcmp.h
+/usr/include/python3.8/pystrcmp.h
+dtoa.h
+/usr/include/python3.8/dtoa.h
 fileutils.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/fileutils.h
+/usr/include/python3.8/fileutils.h
 pyfpe.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyfpe.h
+/usr/include/python3.8/pyfpe.h
 tracemalloc.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/tracemalloc.h
+/usr/include/python3.8/tracemalloc.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/abstract.h
+/usr/include/python3.8/abstract.h
 cpython/abstract.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/abstract.h
+/usr/include/python3.8/cpython/abstract.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/bltinmodule.h
+/usr/include/python3.8/bltinmodule.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/boolobject.h
+/usr/include/python3.8/boolobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/bytearrayobject.h
+/usr/include/python3.8/bytearrayobject.h
 stdarg.h
 -
-cpython/bytearrayobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/bytearrayobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/bytesobject.h
+/usr/include/python3.8/bytesobject.h
 stdarg.h
 -
-cpython/bytesobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/bytesobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cellobject.h
+/usr/include/python3.8/cellobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/ceval.h
-cpython/ceval.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/ceval.h
+/usr/include/python3.8/ceval.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/classobject.h
+/usr/include/python3.8/classobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/code.h
-cpython/code.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/code.h
+/usr/include/python3.8/code.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/codecs.h
+/usr/include/python3.8/codecs.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/compile.h
+/usr/include/python3.8/compile.h
+code.h
+/usr/include/python3.8/code.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/complexobject.h
+/usr/include/python3.8/complexobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/context.h
+/usr/include/python3.8/context.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/abstract.h
+/usr/include/python3.8/cpython/abstract.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/bytearrayobject.h
+/usr/include/python3.8/cpython/dictobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/bytesobject.h
+/usr/include/python3.8/cpython/fileobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/ceval.h
+/usr/include/python3.8/cpython/initconfig.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/code.h
+/usr/include/python3.8/cpython/object.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/dictobject.h
+/usr/include/python3.8/cpython/objimpl.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/fileobject.h
+/usr/include/python3.8/cpython/pyerrors.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/fileutils.h
+/usr/include/python3.8/cpython/pylifecycle.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/frameobject.h
+/usr/include/python3.8/cpython/pymem.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/import.h
+/usr/include/python3.8/cpython/pystate.h
+cpython/initconfig.h
+/usr/include/python3.8/cpython/cpython/initconfig.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/initconfig.h
+/usr/include/python3.8/cpython/sysmodule.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/listobject.h
+/usr/include/python3.8/cpython/traceback.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/methodobject.h
+/usr/include/python3.8/cpython/tupleobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/object.h
+/usr/include/python3.8/cpython/unicodeobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/objimpl.h
+/usr/include/python3.8/descrobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/pyerrors.h
-
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/pylifecycle.h
-
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/pymem.h
-
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/pystate.h
-
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/sysmodule.h
-
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/traceback.h
-
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/tupleobject.h
-
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/unicodeobject.h
-
-/home/chris/anaconda3/envs/lab_env/include/python3.9/descrobject.h
-
-/home/chris/anaconda3/envs/lab_env/include/python3.9/dictobject.h
+/usr/include/python3.8/dictobject.h
 cpython/dictobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/dictobject.h
+/usr/include/python3.8/cpython/dictobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/enumobject.h
+/usr/include/python3.8/dtoa.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/eval.h
+/usr/include/python3.8/enumobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/exports.h
+/usr/include/python3.8/eval.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/fileobject.h
+/usr/include/python3.8/fileobject.h
 cpython/fileobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/fileobject.h
+/usr/include/python3.8/cpython/fileobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/fileutils.h
-cpython/fileutils.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/fileutils.h
+/usr/include/python3.8/fileutils.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/floatobject.h
+/usr/include/python3.8/floatobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/frameobject.h
-pyframe.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyframe.h
-cpython/frameobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/frameobject.h
+/usr/include/python3.8/frameobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/funcobject.h
+/usr/include/python3.8/funcobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/genericaliasobject.h
-
-/home/chris/anaconda3/envs/lab_env/include/python3.9/genobject.h
+/usr/include/python3.8/genobject.h
 pystate.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pystate.h
+/usr/include/python3.8/pystate.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/import.h
-cpython/import.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/import.h
+/usr/include/python3.8/import.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/intrcheck.h
+/usr/include/python3.8/intrcheck.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/iterobject.h
+/usr/include/python3.8/iterobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/listobject.h
-cpython/listobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/listobject.h
+/usr/include/python3.8/listobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/longintrepr.h
+/usr/include/python3.8/longintrepr.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/longobject.h
+/usr/include/python3.8/longobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/memoryobject.h
+/usr/include/python3.8/memoryobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/methodobject.h
-cpython/methodobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/methodobject.h
+/usr/include/python3.8/methodobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/modsupport.h
+/usr/include/python3.8/modsupport.h
 stdarg.h
 -
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/moduleobject.h
+/usr/include/python3.8/moduleobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/namespaceobject.h
+/usr/include/python3.8/namespaceobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/object.h
-cpython/object.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/object.h
-
-/home/chris/anaconda3/envs/lab_env/include/python3.9/objimpl.h
+/usr/include/python3.8/object.h
 pymem.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pymem.h
+/usr/include/python3.8/pymem.h
+cpython/object.h
+/usr/include/python3.8/cpython/object.h
+
+/usr/include/python3.8/objimpl.h
+pymem.h
+/usr/include/python3.8/pymem.h
 cpython/objimpl.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/objimpl.h
+/usr/include/python3.8/cpython/objimpl.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/odictobject.h
+/usr/include/python3.8/odictobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/osmodule.h
+/usr/include/python3.8/osmodule.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/patchlevel.h
+/usr/include/python3.8/patchlevel.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/picklebufobject.h
+/usr/include/python3.8/picklebufobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyarena.h
+/usr/include/python3.8/pyarena.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pycapsule.h
+/usr/include/python3.8/pycapsule.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyconfig.h
+/usr/include/python3.8/pyconfig.h
+x86_64-linux-gnu/python3.8/pyconfig.h
+-
+x86_64-linux-gnux32/python3.8/pyconfig.h
+-
+i386-linux-gnu/python3.8/pyconfig.h
+-
+aarch64-linux-gnu/python3.8/pyconfig.h
+-
+alpha-linux-gnu/python3.8/pyconfig.h
+-
+arm-linux-gnueabihf/python3.8/pyconfig.h
+-
+arm-linux-gnueabi/python3.8/pyconfig.h
+-
+hppa-linux-gnu/python3.8/pyconfig.h
+-
+ia64-linux-gnu/python3.8/pyconfig.h
+-
+m68k-linux-gnu/python3.8/pyconfig.h
+-
+mipsisa32r6el-linux-gnu/python3.8/pyconfig.h
+-
+mipsisa64r6el-linux-gnuabin32/python3.8/pyconfig.h
+-
+mipsisa64r6el-linux-gnuabi64/python3.8/pyconfig.h
+-
+mipsisa32r6-linux-gnu/python3.8/pyconfig.h
+-
+mipsisa64r6-linux-gnuabin32/python3.8/pyconfig.h
+-
+mipsisa64r6-linux-gnuabi64/python3.8/pyconfig.h
+-
+mipsel-linux-gnu/python3.8/pyconfig.h
+-
+mips64el-linux-gnuabin32/python3.8/pyconfig.h
+-
+mips64el-linux-gnuabi64/python3.8/pyconfig.h
+-
+mips-linux-gnu/python3.8/pyconfig.h
+-
+mips64-linux-gnuabin32/python3.8/pyconfig.h
+-
+mips64-linux-gnuabi64/python3.8/pyconfig.h
+-
+or1k-linux-gnu/python3.8/pyconfig.h
+-
+powerpc-linux-gnuspe/python3.8/pyconfig.h
+-
+powerpc64le-linux-gnu/python3.8/pyconfig.h
+-
+powerpc64-linux-gnu/python3.8/pyconfig.h
+-
+powerpc-linux-gnu/python3.8/pyconfig.h
+-
+s390x-linux-gnu/python3.8/pyconfig.h
+-
+s390-linux-gnu/python3.8/pyconfig.h
+-
+sh4-linux-gnu/python3.8/pyconfig.h
+-
+sparc64-linux-gnu/python3.8/pyconfig.h
+-
+sparc-linux-gnu/python3.8/pyconfig.h
+-
+riscv64-linux-gnu/python3.8/pyconfig.h
+-
+riscv32-linux-gnu/python3.8/pyconfig.h
+-
+x86_64-kfreebsd-gnu/python3.8/pyconfig.h
+-
+i386-kfreebsd-gnu/python3.8/pyconfig.h
+-
+i386-gnu/python3.8/pyconfig.h
+-
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyctype.h
+/usr/include/python3.8/pyctype.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pydebug.h
+/usr/include/python3.8/pydebug.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyerrors.h
+/usr/include/python3.8/pyerrors.h
 stdarg.h
 -
 cpython/pyerrors.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/pyerrors.h
+/usr/include/python3.8/cpython/pyerrors.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyfpe.h
+/usr/include/python3.8/pyfpe.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyframe.h
+/usr/include/python3.8/pyhash.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyhash.h
-
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pylifecycle.h
+/usr/include/python3.8/pylifecycle.h
 cpython/pylifecycle.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/pylifecycle.h
+/usr/include/python3.8/cpython/pylifecycle.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pymacconfig.h
+/usr/include/python3.8/pymacconfig.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pymacro.h
+/usr/include/python3.8/pymacro.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pymath.h
+/usr/include/python3.8/pymath.h
 pyconfig.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyconfig.h
+/usr/include/python3.8/pyconfig.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pymem.h
+/usr/include/python3.8/pymem.h
 pyport.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyport.h
+/usr/include/python3.8/pyport.h
 cpython/pymem.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/pymem.h
+/usr/include/python3.8/cpython/pymem.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyport.h
+/usr/include/python3.8/pyport.h
 pyconfig.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyconfig.h
+/usr/include/python3.8/pyconfig.h
 inttypes.h
 -
 stdlib.h
@@ -917,54 +959,54 @@ ctype.h
 -
 wctype.h
 -
-exports.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/exports.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pystate.h
+/usr/include/python3.8/pystate.h
+pythread.h
+/usr/include/python3.8/pythread.h
 cpython/pystate.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/pystate.h
+/usr/include/python3.8/cpython/pystate.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pystrcmp.h
+/usr/include/python3.8/pystrcmp.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pystrtod.h
+/usr/include/python3.8/pystrtod.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pythonrun.h
+/usr/include/python3.8/pythonrun.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pythread.h
+/usr/include/python3.8/pythread.h
 pthread.h
 -
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pytime.h
+/usr/include/python3.8/pytime.h
 pyconfig.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/pyconfig.h
+/usr/include/python3.8/pyconfig.h
 object.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/object.h
+/usr/include/python3.8/object.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/rangeobject.h
+/usr/include/python3.8/rangeobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/setobject.h
+/usr/include/python3.8/setobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/sliceobject.h
+/usr/include/python3.8/sliceobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/structseq.h
+/usr/include/python3.8/structseq.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/sysmodule.h
+/usr/include/python3.8/sysmodule.h
 cpython/sysmodule.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/sysmodule.h
+/usr/include/python3.8/cpython/sysmodule.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/traceback.h
+/usr/include/python3.8/traceback.h
 cpython/traceback.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/traceback.h
+/usr/include/python3.8/cpython/traceback.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/tracemalloc.h
+/usr/include/python3.8/tracemalloc.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/tupleobject.h
+/usr/include/python3.8/tupleobject.h
 cpython/tupleobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/tupleobject.h
+/usr/include/python3.8/cpython/tupleobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/typeslots.h
+/usr/include/python3.8/typeslots.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/unicodeobject.h
+/usr/include/python3.8/unicodeobject.h
 stdarg.h
 -
 ctype.h
@@ -972,19 +1014,11 @@ ctype.h
 wchar.h
 -
 cpython/unicodeobject.h
-/home/chris/anaconda3/envs/lab_env/include/python3.9/cpython/unicodeobject.h
+/usr/include/python3.8/cpython/unicodeobject.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/warnings.h
+/usr/include/python3.8/warnings.h
 
-/home/chris/anaconda3/envs/lab_env/include/python3.9/weakrefobject.h
-
-/home/chris/parallel_diff_evolution/src/solver_center/solver_center.cpp
-pybind11/pybind11.h
--
-pybind11/numpy.h
--
-diff_evolution_solver/solver.cuh
-/home/chris/parallel_diff_evolution/src/solver_center/diff_evolution_solver/solver.cuh
+/usr/include/python3.8/weakrefobject.h
 
 /usr/local/cuda-11.1/include/builtin_types.h
 device_types.h

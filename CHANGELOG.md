@@ -186,3 +186,6 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Yandong Luo: Use the cart_pole version of the code as the initial code
 
+## [0.3.1] - 2025-1-23
+### Changed
+- Yandong Luo: Add the robot's xml file and urdf, and visualize it in mujoco

@@ -1,4 +1,4 @@
-# Install script for directory: /home/chris/parallel_diff_evolution/thirdparty/pybind11
+# Install script for directory: /home/chris/loco-manipulation-cuda-DE/thirdparty/pybind11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
